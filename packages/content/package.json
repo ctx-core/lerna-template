@@ -1,0 +1,13 @@
+{
+  "name": "@myproject/content",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "svelte": "^3.6.2"
+  },
+  "devDependencies": {
+    "rollup": "^1.16.3",
+    "rollup-plugin-typescript2": "^0.21.2",
+    "typescript": "^3.5.2"
+  }
+}
