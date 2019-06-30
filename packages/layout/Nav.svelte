@@ -1,6 +1,6 @@
 <script>
 	import { __path__sapper } from '@ctx-core/sapper/store'
-	import { __path__home } from '../_store'
+	import { __path__home } from '@myproject/web-lib/store'
 	import {
 		__theme__invert,
 		invert__theme,
@@ -44,16 +44,64 @@
 </div>
 
 <style type="text/scss" global>
-	@import 'src/css/variables';
+	@import '~@myproject/css/variables';
 	@import '~@ctx-core/nav/lib';
 	$width__wide: $width__max__tablet;
 	@include Handle__Nav($width__wide: $width__wide);
 	@include Content__Nav($width__wide: $width__wide);
 	@include Item__Nav__selected-underline($background: $color__a);
 	.container__Content__Nav {
+		position: relative;
+		display: flex;
 		width: 100%;
+		&.path__home {
+			.child_nav {
+				display: none;
+				@media(max-width: #{$width__wide}) {
+					display: block;
+				}
+			}
+		}
+		.theme {
+			margin: 0 1rem 0 auto;
+			@media(max-width: #{$width__wide}) {
+				position: static;
+				margin: 0;
+				a {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+			}
+			&.theme__invert {
+				svg {
+					fill: $color__header__invert;
+				}
+			}
+			svg {
+				height: 1.2rem;
+				width: 1.2rem;
+				fill: $color__header;
+			}
+		}
+		> * {
+			a {
+				margin-right: 0.8rem;
+				color: $color__header;
+				fill: $color__header;
+				@media(max-width: #{$width__wide}) {
+					padding: 0.4rem 0;
+				}
+				&.theme__invert {
+					color: $color__header__invert;
+				}
+				&.selected {
+					box-shadow: 0 2px 0 $color__a__mid;
+				}
+			}
+		}
 	}
-	@include Item__Nav() {
+	@include in-Item__Nav() {
 		&.theme__invert {
 			&.selected {
 				&::after {
@@ -66,7 +114,7 @@
 		@include Item__Nav__selected-background(
 			$background: $color__a
 		);
-		@include Item__Nav() {
+		@include in-Item__Nav() {
 			&.theme__invert {
 				&.selected {
 					background: invert($color__a__invert);
@@ -88,13 +136,15 @@
 		}
 	}
 	.Content__Nav {
+		display: flex;
+		flex-direction: row;
 		&.theme__invert {
 			@media(max-width: #{$width__wide}) {
 				background-color: mix($color__layout__invert, $color__background__header__invert, 50%);
 			}
 		}
 	}
-	@include Item__Nav() {
+	@include in-Item__Nav() {
 		flex: 0;
 		&.container__logo {
 			margin-right: 1.5rem;
@@ -128,58 +178,6 @@
 			top: 0;
 			height: 100vh;
 			background-color: mix($color__layout, $color__background__header, 50%);
-		}
-		.dialog {
-			.container__slot__Content__Nav {
-				position: relative;
-				display: flex;
-				&.path__home {
-					.child_nav {
-						display: none;
-						@media(max-width: #{$width__wide}) {
-							display: block;
-						}
-					}
-				}
-				.theme {
-					margin: 0 1rem 0 auto;
-					@media(max-width: #{$width__wide}) {
-						position: static;
-						margin: 0;
-						a {
-							display: flex;
-							align-items: center;
-							justify-content: center;
-						}
-					}
-					&.theme__invert {
-						svg {
-							fill: $color__header__invert;
-						}
-					}
-					svg {
-						height: 1.2rem;
-						width: 1.2rem;
-						fill: $color__header;
-					}
-				}
-				> * {
-					a {
-						margin-right: 0.8rem;
-						color: $color__header;
-						fill: $color__header;
-						@media(max-width: #{$width__wide}) {
-							padding: 0.4rem 0;
-						}
-						&.theme__invert {
-							color: $color__header__invert;
-						}
-						&.selected {
-							box-shadow: 0 2px 0 $color__a__mid;
-						}
-					}
-				}
-			}
 		}
 	}
 </style>

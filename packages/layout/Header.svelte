@@ -7,7 +7,7 @@
 </header>
 
 <style type="text/scss">
-	@import 'src/css/variables';
+	@import '~@myproject/css/variables';
 	header {
 		position: fixed;
 		display: flex;
