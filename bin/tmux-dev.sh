@@ -16,7 +16,7 @@ tmux rename-window build-typescript
 tmux send-keys 'watch-ts-toposort.sh' 'C-m'
 tmux select-pane -t 0
 
-cd $DEV_DIR/packages/web
+cd $DEV_DIR/packages/_web
 
 tmux new-window
 tmux rename-window web
