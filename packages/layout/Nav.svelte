@@ -24,11 +24,6 @@
 			<FA_project_diagram_solid width="40px" height="40px"></FA_project_diagram_solid>
 		</Item__Nav>
 		<Item__Nav
-			href="/dev"
-			selected="{$__path__sapper.startsWith('/dev')}"
-			class="child_nav {$__class__theme__invert}"
-		>dev</Item__Nav>
-		<Item__Nav
 			href="/about"
 			selected="{$__path__sapper.startsWith('/about')}"
 			class="child_nav {$__class__theme__invert}"
@@ -56,7 +51,6 @@
 		width: 100%;
 		&.path__home {
 			.child_nav {
-				display: none;
 				@media(max-width: #{$width__wide}) {
 					display: block;
 				}
