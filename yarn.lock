@@ -25,13 +25,13 @@
     "@ctx-core/logger" "^3.0.44"
     "@ctx-core/object" "^6.0.4"
 
-"@ctx-core/fontawesome@^10.0.49":
-  version "10.0.49"
-  resolved "https://registry.yarnpkg.com/@ctx-core/fontawesome/-/fontawesome-10.0.49.tgz#c5f6d37df2c28c6166a718cf193ccd1ffaaa12b6"
-  integrity sha512-NjMwAAPN3Z7Or68Hma4RmTlIOlp9JOVAP07aOKAuzI3uCl+/8aA6G014AljB1aWxMnnmOC3V3edfGEHQe9q/yQ==
+"@ctx-core/fontawesome@^10.0.50":
+  version "10.0.50"
+  resolved "https://registry.yarnpkg.com/@ctx-core/fontawesome/-/fontawesome-10.0.50.tgz#1f7deb2c3e1e1c6a44c96cfd8c1eb66edbaf4f0b"
+  integrity sha512-5n5zDxwIFiUlQN6IazZoUA/aeSmBLMcbcB1FHOQx8/dF5y1iz2oxy/4XpRma3kl7rhl81JcTKygfjS8MXNSpjg==
   dependencies:
     "@ctx-core/array" "^14.0.6"
-    "@ctx-core/svg" "^6.1.41"
+    "@ctx-core/svg" "^6.1.42"
     domutils "^1.7.0"
     htmlparser2 "^3.10.1"
 
@@ -48,12 +48,12 @@
     "@ctx-core/object" "^6.0.4"
     chalk "^2.4.2"
 
-"@ctx-core/nav@^12.0.26":
-  version "12.0.26"
-  resolved "https://registry.yarnpkg.com/@ctx-core/nav/-/nav-12.0.26.tgz#28a7b33ff3cd59d85e3c4b6681f436a3f8f27f30"
-  integrity sha512-HwIEGEeFiN/VpTv4Hpq2K2LP7quu50yLWSDsMphcA6zmxBnib4sDiU9hryr2BBytKto5c4QnwdyjtxTWM05RIw==
+"@ctx-core/nav@^12.0.27":
+  version "12.0.27"
+  resolved "https://registry.yarnpkg.com/@ctx-core/nav/-/nav-12.0.27.tgz#6d0c088efe7d7bc3873c8b44a58d1ccc56f91807"
+  integrity sha512-AY7ZnX+nL23JagUHjCh0Rju370AApLH03PQzi1f+Jqh+jawsGQqiMA4uDcn7PXQMGd/tr1n2Qlw5gCPUeE+N7w==
   dependencies:
-    "@ctx-core/fontawesome" "^10.0.49"
+    "@ctx-core/fontawesome" "^10.0.50"
 
 "@ctx-core/object@^6.0.4":
   version "6.0.4"
@@ -139,10 +139,10 @@
     rollup-plugin-svelte "^5.1.0"
     svelte "^3.6.2"
 
-"@ctx-core/svg@^6.1.41":
-  version "6.1.41"
-  resolved "https://registry.yarnpkg.com/@ctx-core/svg/-/svg-6.1.41.tgz#6bcafd4e76d6ab9e7fba4ae050c4b1ee656ef450"
-  integrity sha512-GUEYJY/I6M0RWszJlWO8eqEx/T5KBbVNncCOE+wwuBZvHhyUuCysx4hEIJrdx6lCvQ5TZcOBQtus3DmzC2jdGQ==
+"@ctx-core/svg@^6.1.42":
+  version "6.1.42"
+  resolved "https://registry.yarnpkg.com/@ctx-core/svg/-/svg-6.1.42.tgz#8d37ca167a4a222c50152a092e3fa116373e49a6"
+  integrity sha512-W5C7+Zsoabh1xfGRfShrh1I4fIwq4h2DxCvtsmHYHmtqo+TTgyeLGDNBZnnqfslGUfaAynrYHOIEaR9TbIrYzg==
   dependencies:
     "@ctx-core/array" "^14.0.6"
     "@ctx-core/logger" "^3.0.44"
@@ -153,10 +153,10 @@
     htmlparser2 "^3.10.1"
     resolve "^1.11.1"
 
-"@ctx-core/theme@^1.1.39":
-  version "1.1.39"
-  resolved "https://registry.yarnpkg.com/@ctx-core/theme/-/theme-1.1.39.tgz#a06fcab6d7b6f2f2432f4e26bfd18471b58266e8"
-  integrity sha512-KY7cCdC1l5KKWRRlIw5M0hyq544ZyUxs4SKhesPMITEI7C1t6D7uNE0R4jZFc9lTs476WmZFnwhmp7pLdB+qPQ==
+"@ctx-core/theme@^1.1.40":
+  version "1.1.40"
+  resolved "https://registry.yarnpkg.com/@ctx-core/theme/-/theme-1.1.40.tgz#e1ce8eefe9515af30f7c4dcaa82f7333af2d2e28"
+  integrity sha512-qygadguXbfhqmRZRExaCCn4Ie6182Zl1JMb9cEyE6Fri6eEEddDOCF2vH8/DFYUaS+KyEfRz7xzqRBoZH3LeNA==
   dependencies:
     "@ctx-core/function" "^10.0.3"
     "@ctx-core/store" "^11.1.7"
