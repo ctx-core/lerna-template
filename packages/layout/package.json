@@ -1,26 +1,26 @@
 {
-  "name": "@myproject/layout",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -rf .rpt2_cache; find ./*/index.* -type f -not -name 'index.ts' -delete",
-    "compile": "rollup -c",
-    "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@ctx-core/fontawesome": "^10.0.49",
-    "@ctx-core/nav": "^12.0.26",
-    "@ctx-core/sapper": "^6.1.7",
-    "@ctx-core/sass": "^6.1.22",
-    "@ctx-core/theme": "^1.1.39",
-    "@myproject/web-lib": "^0.0.1",
-    "svelte": "^3.6.2"
-  },
-  "devDependencies": {
-    "rollup": "^1.16.3",
-    "rollup-plugin-typescript2": "^0.21.2",
-    "typescript": "^3.5.2"
-  }
+	"name": "@myproject/layout",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -rf .rpt2_cache; find ./*/index.* -type f -not -name 'index.ts' -delete",
+		"compile": "rollup -c",
+		"prepublishOnly": "npm run build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@ctx-core/fontawesome": "^10.0.50",
+		"@ctx-core/nav": "^12.0.27",
+		"@ctx-core/sapper": "^6.1.7",
+		"@ctx-core/sass": "^6.1.22",
+		"@ctx-core/theme": "^1.1.40",
+		"@myproject/web-lib": "^0.0.1",
+		"svelte": "^3.6.2"
+	},
+	"devDependencies": {
+		"rollup": "^1.16.3",
+		"rollup-plugin-typescript2": "^0.21.2",
+		"typescript": "^3.5.2"
+	}
 }
