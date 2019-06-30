@@ -10,8 +10,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
-		"@ctx-core/fontawesome": "^10.0.50",
-		"@ctx-core/nav": "^12.0.27",
+		"@ctx-core/fontawesome": "^10.0.52",
+		"@ctx-core/nav": "^12.0.29",
 		"@ctx-core/sapper": "^6.1.7",
 		"@ctx-core/sass": "^6.1.22",
 		"@ctx-core/theme": "^1.1.40",
