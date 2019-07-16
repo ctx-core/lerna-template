@@ -10,13 +10,13 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
-		"@ctx-core/function": "^10.0.3",
-		"@ctx-core/sapper": "^6.1.7",
-		"svelte": "^3.6.2"
+		"@ctx-core/function": "^10.1.2",
+		"@ctx-core/sapper": "^6.1.33",
+		"svelte": "btakita/svelte#gh-3191-hotfix"
 	},
 	"devDependencies": {
-		"rollup": "^1.16.3",
-		"rollup-plugin-typescript2": "^0.21.2",
-		"typescript": "^3.5.2"
+		"rollup": "^1.17.0",
+		"rollup-plugin-typescript2": "^0.22.0",
+		"typescript": "^3.5.3"
 	}
 }

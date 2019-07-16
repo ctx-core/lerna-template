@@ -1,12 +1,12 @@
 {
-  "name": "@myproject/highlight.js",
-  "version": "0.0.1",
-  "private": true,
-  "main": "./lib.js",
-  "module": "./lib.js",
-  "dependencies": {
-    "@ctx-core/dom": "^5.4.17",
-    "highlight.js": "^9.15.8",
-    "svelte": "^3.6.2"
-  }
+	"name": "@myproject/highlight.js",
+	"version": "0.0.1",
+	"private": true,
+	"main": "./lib.js",
+	"module": "./lib.js",
+	"dependencies": {
+		"@ctx-core/dom": "^5.4.31",
+		"highlight.js": "^9.15.8",
+		"svelte": "btakita/svelte#gh-3191-hotfix"
+	}
 }
