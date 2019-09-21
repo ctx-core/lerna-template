@@ -10,16 +10,16 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
-		"@ctx-core/fontawesome": "^10.1.66",
-		"@ctx-core/nav": "^13.0.88",
-		"@ctx-core/sapper": "^6.1.90",
-		"@ctx-core/sass": "^6.1.68",
-		"@ctx-core/theme": "^1.1.116",
+		"@ctx-core/fontawesome": "^10.1.69",
+		"@ctx-core/nav": "^13.0.92",
+		"@ctx-core/sapper": "^6.1.93",
+		"@ctx-core/sass": "^6.1.71",
+		"@ctx-core/theme": "^1.1.119",
 		"@myproject/web-lib": "^0.0.1",
 		"svelte": "^3.12.1"
 	},
 	"devDependencies": {
-		"rollup": "^1.21.3",
+		"rollup": "^1.21.4",
 		"rollup-plugin-typescript2": "^0.24.2",
 		"typescript": "^3.6.3"
 	}
