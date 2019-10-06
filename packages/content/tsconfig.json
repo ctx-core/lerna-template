@@ -7,5 +7,6 @@
 			]
 		}
 	},
+	"exclude": [],
 	"extends": "../../tsconfig.json"
 }
