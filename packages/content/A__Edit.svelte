@@ -1,7 +1,7 @@
 <script>
-	import { join } from 'path'
-	import { __url__edit__source } from '@myproject/content/store'
-	export let href = ''
+import { join } from 'path'
+import { __url__edit__source } from '@myproject/content/store'
+export let href = ''
 </script>
 
 <a
