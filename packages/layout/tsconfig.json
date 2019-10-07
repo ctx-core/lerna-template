@@ -3,5 +3,8 @@
 	"compilerOptions": {
 		"outDir": ".",
 		"declarationDir": "."
-	}
+	},
+	"references": [
+		{"path": "../web-lib"}
+	]
 }
