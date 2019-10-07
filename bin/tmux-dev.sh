@@ -13,7 +13,7 @@ cd $DEV_DIR
 
 tmux new-window
 tmux rename-window build-typescript
-tmux send-keys 'watch-ts-toposort.sh' 'C-m'
+tmux send-keys 'tsc-build.sh -w' 'C-m'
 tmux select-pane -t 0
 
 cd $DEV_DIR/packages/_web
