@@ -1,12 +1,9 @@
 {
+	"extends": "../../tsconfig.json",
 	"compilerOptions": {
-		"baseUrl": ".",
-		"paths": {
-			"*": [
-				"types/*"
-			]
-		}
+		"outDir": ".",
+		"declarationDir": "."
 	},
-	"exclude": [],
-	"extends": "../../tsconfig.json"
+	"references": [
+	]
 }
