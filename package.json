@@ -2,7 +2,8 @@
 	"name": "@myproject/dev",
 	"private": true,
 	"devDependencies": {
-		"lerna": "^3.15.0"
+		"lerna": "^3.15.0",
+		"typescript": "^3.6.3"
 	},
 	"workspaces": {
 		"packages": [
