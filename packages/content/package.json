@@ -1,7 +1,7 @@
 {
-  "name": "@myproject/content",
-  "version": "0.0.1",
-  "private": true,
+	"name": "@myproject/content",
+	"version": "0.0.1",
+	"private": true,
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -rf .rpt2_cache; find ./*/index.* -type f -not -name 'index.ts' -delete",
@@ -9,10 +9,10 @@
 		"prepublishOnly": "npm run build",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-  "dependencies": {
-    "svelte": "^3.12.1"
-  },
-  "devDependencies": {
-    "typescript": "^3.6.4"
-  }
+	"dependencies": {
+		"svelte": "^3.16.0"
+	},
+	"devDependencies": {
+		"typescript": "^3.7.2"
+	}
 }

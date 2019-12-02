@@ -10,15 +10,15 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
-		"@ctx-core/fontawesome": "^10.1.84",
-		"@ctx-core/nav": "^13.2.5",
-		"@ctx-core/sapper": "^6.2.8",
-		"@ctx-core/sass": "^6.1.88",
-		"@ctx-core/theme": "^1.1.136",
+		"@ctx-core/fontawesome": "^10.2.19",
+		"@ctx-core/nav": "^13.3.20",
+		"@ctx-core/sapper": "^6.2.38",
+		"@ctx-core/sass": "^6.3.2",
+		"@ctx-core/theme": "^1.2.19",
 		"@myproject/web-lib": "^0.0.1",
-		"svelte": "^3.12.1"
+		"svelte": "^3.16.0"
 	},
 	"devDependencies": {
-		"typescript": "^3.6.3"
+		"typescript": "^3.7.2"
 	}
 }
