@@ -5,6 +5,6 @@
 	"main": "./lib.js",
 	"module": "./lib.js",
 	"dependencies": {
-		"@ctx-core/sass": "^6.3.2"
+		"@ctx-core/sass": "^6.3.12"
 	}
 }
