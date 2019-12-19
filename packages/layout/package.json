@@ -10,13 +10,13 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
-		"@ctx-core/fontawesome": "^10.2.29",
-		"@ctx-core/nav": "^13.3.31",
-		"@ctx-core/sapper": "^6.2.46",
-		"@ctx-core/sass": "^6.3.12",
-		"@ctx-core/theme": "^1.2.28",
+		"@ctx-core/fontawesome": "^10.2.35",
+		"@ctx-core/nav": "^13.3.40",
+		"@ctx-core/sapper": "^6.2.52",
+		"@ctx-core/sass": "^6.3.16",
+		"@ctx-core/theme": "^1.2.38",
 		"@myproject/web-lib": "^0.0.1",
-		"svelte": "^3.16.4"
+		"svelte": "^3.16.5"
 	},
 	"devDependencies": {
 		"typescript": "^3.7.3"
