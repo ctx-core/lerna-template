@@ -10,9 +10,9 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"dependencies": {
-		"svelte": "^3.16.5"
+		"svelte": "^3.17.1"
 	},
 	"devDependencies": {
-		"typescript": "^3.7.3"
+		"typescript": "^3.7.4"
 	}
 }
