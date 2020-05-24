@@ -1,5 +1,5 @@
 import { _has__dom } from '@ctx-core/dom'
-import hljs from 'highlight.js/lib/highlight'
+import hljs from 'highlight.js/lib/core'
 import js__highlight from 'highlight.js/lib/languages/javascript'
 import json__highlight from 'highlight.js/lib/languages/json'
 import shell__highlight from 'highlight.js/lib/languages/shell'
