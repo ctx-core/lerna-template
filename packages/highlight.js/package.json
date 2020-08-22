@@ -5,8 +5,8 @@
 	"main": "./lib.js",
 	"module": "./lib.js",
 	"dependencies": {
-		"@ctx-core/dom": "^5.13.11",
-		"highlight.js": "^10.0.3",
-		"svelte": "^3.22.3"
+		"@ctx-core/dom": "^6.0.26",
+		"highlight.js": "^10.1.2",
+		"svelte": "^3.24.1"
 	}
 }
